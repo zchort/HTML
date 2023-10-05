@@ -1,0 +1,31 @@
+body {
+    background-color:pink;
+}
+
+h1:hover {
+    color: black;
+}
+
+.center-text {
+    text-align: center;
+    color: white
+}
+
+.center-footer {
+    text-align: center;
+    line-height: 1.15pt
+}
+
+.container {
+    width: 30%;
+    margin: auto
+}
+
+img {
+    display: block;
+    width: 300px;
+    aspect-ratio: auto 514 / 643;
+    height: 375.29px;
+    margin-left: auto;
+    margin-right: auto;
+}
