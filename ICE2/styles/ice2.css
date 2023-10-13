@@ -1,0 +1,33 @@
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.circles {
+    background-color: darkgray;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+}
+
+.circles a {
+    flex: 1 0 30%;
+}
+
+.circles img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+
+
+header img {
+
+}
