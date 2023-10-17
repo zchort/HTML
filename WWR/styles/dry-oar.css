@@ -1,3 +1,5 @@
+@import url('');
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -38,8 +40,9 @@ main section {
 
 body {
     background-color: #8bdbce; 
+    margin: 0px;
+    padding: 0px;
 }
-
 
 .book, .join{
     background-color: rgb(60, 62, 182);
