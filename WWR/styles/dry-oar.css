@@ -1,4 +1,4 @@
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Space+Mono&display=swap');
 
 .content {
     max-width: 1600px;
@@ -42,6 +42,7 @@ body {
     background-color: #8bdbce; 
     margin: 0px;
     padding: 0px;
+    font-size: 22px;
 }
 
 .book, .join{
