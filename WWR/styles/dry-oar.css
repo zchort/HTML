@@ -14,6 +14,7 @@ nav a {
     text-align: center;
     color: rgb(31, 161, 101);
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -32,6 +33,9 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 #background {
     height: 725px;
@@ -40,15 +44,23 @@ main section {
 
 body {
     background-color: #8bdbce; 
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-size: 22px;
+}
+h2 {
+    margin: 0;
 }
 
 .book, .join{
     background-color: rgb(60, 62, 182);
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
 .book:hover, .join:hover {
@@ -57,23 +69,51 @@ body {
 
 .msg {
     background-color: rgb(31, 161, 101);
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 /* footer */
 footer {
     background-color: rgba(20,30,13, .7);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
-
 footer a {
     color:rgb(31, 161, 101);
     text-decoration: none;
+    
 }
-
 footer p a:hover {
     background-color: black;
     text-decoration: underline;
 }
+footer .social img{
+    padding-top: 15px;
+}
 
 .logo {
     width: 80px;
+}
+#logo-link{
+    padding-top: 5px;
+}
+.home-title {
+    font-family: 'Delicious Handrawn', 'Space Mono';
+    font-size: 2em;
+    margin-top: 10px;
+}
+.icon {
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+
 }
