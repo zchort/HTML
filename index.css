@@ -98,3 +98,12 @@ li {
 a {
     color: #e1b94c;
 }
+a:hover {
+    color: #d93e4f;
+}
+a:visited {
+    color:#fc7637;
+}
+a:visited:hover {
+    color: #d93e4f;
+}
