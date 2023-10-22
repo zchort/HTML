@@ -7,9 +7,7 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 100px 200px 100px;
     justify-self: center;
-    margin: auto;
-    z-index: -2;
-    
+    margin: auto;    
 }
 header h1 {
     color:#795f94;
@@ -33,7 +31,8 @@ ul, ol {
     grid-column: 1/2;
     grid-row: 1/4;
     border-style: solid;
-    border-color: #361d43;
+    border-color: #471750;
+    border-width: 2px;
     padding: 10px;
     justify-self: center;
     background-color: #262335;
@@ -45,7 +44,8 @@ ul, ol {
     grid-column: 2/2;
     grid-row: 1/4;
     border-style: solid;
-    border-color: #361d43;
+    border-color: #471750;
+    border-width: 2px;
     padding: 10px;
     justify-self: center;
     background-color:#262335;
@@ -62,7 +62,8 @@ ul, ol {
     grid-template-rows: 1fr 1fr;
     margin:auto;
     border-style: solid;
-    border-color: #361d43;
+    border-color: #471750;
+    border-width: 2px;
     background-color:#262335;
     padding: 5px;
     justify-content: center;
@@ -82,15 +83,6 @@ ul, ol {
 #javascript {
     grid-column: 2/3;
     grid-row: 2/3;
-}
-#background-box {
-    background-color:#241b2f;
-    grid-column: 1/3;
-    grid-row: 1/5;
-    z-index: -1;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 1%;
 }
 li {
     color:#306b4a;
