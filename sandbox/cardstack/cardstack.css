@@ -1,0 +1,23 @@
+.container {
+    display:flex;
+}
+.card {
+    color:black;
+    background-color:black;
+    position:relative;
+    left:0px;
+    height: 280px;
+    width: 200px;
+}
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+.card:hover {
+    transform:translateY(-20px);
+}
+.card:hover ~ .card {
+    left:50px;
+}
+.card1 {
+
+}
