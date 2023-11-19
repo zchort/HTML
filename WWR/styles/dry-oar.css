@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Space+Mono&display=swap');
 
-/* .content {
+.content {
     max-width: 1600px;
     margin: 0 auto;
-} */
+}
 
 /* Header */
 header {
@@ -40,6 +40,9 @@ main {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+}
+#hero-msg h1{
+    font-size: large;
 }
 #hero-box {
     grid-column: 1/4;
@@ -140,8 +143,13 @@ footer .social img{
 
 .logo {
     width: 80px;
+    transition: all .2s ease-in-out;
 }
-#logo-link{
+.logo-link:hover {
+    transform: scale(1.1);
+
+}
+.logo-link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -224,4 +232,72 @@ footer .social img{
     footer {
         margin-top: 25px;
     }
+}
+
+/* RIVERS SUBPAGE */
+.sub-content {
+    justify-self: center;
+}
+#no-hover {
+    background-color:black;
+}
+#infocards {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.idaho, .utah, .arizona {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 100%;
+    max-height: 100%;
+    padding:30px;
+    margin:auto;
+}
+.idaho {
+    grid-row: 1/2;
+    justify-self: right;
+}
+.utah {
+    grid-row: 2/3;
+}
+.arizona {
+    grid-row: 3/4;
+}
+.card-title {
+    margin-top: 20px;
+    text-align: center;
+}
+.arizona > h1, .idaho > h1, .utah > h1 {
+    margin-top: 13px;
+    margin-bottom:20px;
+    font-family: "Delicious Handrawn";
+}
+#infocards img {
+    width: 300px;
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    float:right;
+}
+#infocards p {
+    font-family: "Space Mono";
+    font-size: medium;
+}
+#hero-title h1 {
+    color:white;
+    font-family: "Delicious Handrawn";
+    font-size: 5em;
+}
+#hero-title {
+    margin-top: 40px;
+    margin-left:40px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.book-box {
+    margin-left:50%;
+    margin-right:50%;
 }
