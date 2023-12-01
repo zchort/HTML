@@ -34,7 +34,6 @@ main {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px; 
-
 }
 #hero-msg {
     grid-column: 2/3;
@@ -59,18 +58,15 @@ main {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
-
 .button-box {
     text-align: center;
 }
-
 main section {
     text-align: center;
 }
 main section img {
     box-sizing: border-box;
 }
-
 #background {
     height: 725px;
     background-color:blue;
