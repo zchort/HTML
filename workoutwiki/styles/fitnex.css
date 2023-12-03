@@ -117,10 +117,10 @@ nav a:hover {
     height: 300px;
     border-radius: 5%;
     margin:20px;
+    transition: all .2s ease-in-out;
 }
 #muscle-groups:hover, #glossary:hover {
     transform: scale(1.01); 
-    transition: all .2s ease-in-out;
 }
 #muscle-groups {
     grid-column: 2/3;
