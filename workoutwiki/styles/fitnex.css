@@ -15,7 +15,7 @@ header {
     background-color: rgba(49, 49, 49, 0);
     display:grid;
     grid-template-columns: 1fr 2fr;
-    z-index: 2;
+    z-index: 3;
 }
 .selected {
     background-color: black;
@@ -56,7 +56,7 @@ nav a:hover {
     width: 120px;
     transition: all .2s ease-in-out;
 }
-#logo-link img {
+.logo-link img {
     border-radius: 10%;
 }
 .logo:hover {
@@ -443,6 +443,99 @@ hr {
   to {opacity: 1}
 }
 /************ SLIDESHOW END ************/
+
+/************************ GLOSSARY ************************/
+#bottom-line {
+    border-bottom: solid #571159;
+}
+
+
+/************ SIDENAV ************/
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #012622; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a:not(.nav-logo-link) {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Kanit";
+    color: white;
+    display: block;
+  }  
+  .sidenav a:hover:not(.nav-logo-link) {
+    color: #f1f1f1;
+    background-color: black;
+  }
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+#nav-box {
+    width: 120px;
+    margin: 0 auto 0px auto;
+    text-align: center;
+}
+#nav-box h1 {
+    font-family: "Bebas Neue";
+    font-size: 5em;
+    margin-top:0;
+    color:white;
+    z-index:1;
+}
+.nav-logo {
+    width: 120px;
+    transition: all .2s ease-in-out;
+    margin-bottom: 40px;
+
+}
+.nav-logo-link img {
+    border-radius: 10%;
+}
+.nav-logo:hover {
+    transform: scale(1.1); 
+}
+.nav-logo-link{
+    margin:10px;
+    margin-bottom: 40px;
+}
+
+
+
+.sidenav hr {
+    margin-top:-50px;
+    margin-bottom:30px;
+}
+
+/************ SIDENAV END ************/
+
+.main-page {
+    margin-left: 160px;
+    padding: 0px 10px;
+    z-index: -3;
+}
+.main-page p {
+    font-family:"Kanit";
+    background-color: #29afa2;
+    padding:10px;
+}
+
+.heading-alphabet {
+    font-family: "Bebas Neue";
+    color:#e98a15;
+    font-size: 3em;
+}
 
 
 
