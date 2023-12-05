@@ -143,9 +143,10 @@ nav a:hover {
     background-color: #29afa2;
     padding:10px;
 }
-.content-msg  { /* <- How to make text stretch and fill the div? */
+.content-msg  { 
     font-family: "Kanit";
     font-size: 1.3em;
+    text-align: justify;
 }
 #muscle-content img {
     float:left;
@@ -173,7 +174,13 @@ nav a:hover {
     font-size: 3em;
     text-align: center;
 }
-.button { /* Why are the buttons looking like that? */
+.button-box {
+    margin-top: 70px;
+    width:100%;
+    text-align: center;
+    display:block;
+}
+.button {
     font-family: "Bebas Neue";
     background-color: rgb(60, 62, 182);
     color: white;
@@ -181,15 +188,10 @@ nav a:hover {
     font-size: 25px;
     padding: 15px 30px 15px 30px;
     border-radius: 5px;
-    margin:auto;
+    /* margin:auto; */
 }
 .button:hover {
     background-color:rgb(138, 40, 158);
-}
-.button-box {
-    margin: 70px auto 0 auto;
-    width:100%;
-    text-align: center;
 }
 /************ FOOTER ************/
 footer {
@@ -254,6 +256,7 @@ footer .social img{
 #lower, #upper, #core {
     grid-row: 2/3;
     border: solid white;
+    text-align: justify;
 }
 .lower {
     grid-column: 1/2;
@@ -332,7 +335,8 @@ footer .social img{
 }
 .card-text {
     font-family:"Kanit" ;
-    color:#e98a15;
+    color:white;
+    font-size: large;
 }
 /************ FLIPCARD END ************/
 #workouts {
@@ -521,7 +525,7 @@ textarea {
   height: 5em;
 }
 
-.button {
+.contact-button {
   /* Align buttons with the text fields */
   padding-left: 90px; /* same size as the label elements */
 }
