@@ -345,7 +345,7 @@ footer .social img{
     grid-column: 1/4;
     grid-row: 3/4;
     width:100%;
-    height:500px;
+    height:600px;
     margin-top: 100px;
     border:solid #571159
 }
@@ -359,7 +359,9 @@ hr {
     width:50%;
 }
 /************ SLIDESHOW ************/
-* {box-sizing:border-box}
+* {
+    box-sizing:border-box
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -382,7 +384,7 @@ hr {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -403,7 +405,8 @@ hr {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
+  font-family: "Kanit";
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
