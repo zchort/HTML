@@ -7,25 +7,55 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <div id="feedback">
-        <form action="/my-handling-form-page" method="post">
-            <ul>
-              <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" />
-              </li>
-              <li>
-                <label for="mail">Email:</label>
-                <input type="email" id="mail" name="user_email" />
-              </li>
-              <li>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-                <button type="submit">Send your message</button>
-              </li>
-            </ul>
-          </form>    
-        </div>
+  <header>
+    <div class="logo-title">
+        <a class="logo-link" href="index.html">
+            <img class="logo" src="../images/logo.jpeg" alt="Fitnex Logo">
+        </a>
+        <h1 class="site-title">Fitnex</h1>
+    </div>
+    <nav>
+        <a href="https://zchort.github.io/WDD130/workoutwiki/fitnex.html" target="_blank">Home</a>
+        <a href="subpages/muscle-groups.html" target = "_blank">Muscle Groups</a>
+        <a href="subpages/glossary.html" target="_blank">Glossary</a>
+        <a href="subpages/contactus.html" target="_blank">Contact Us</a>
+    </nav>
+</header>
+  <div id="feedback">
+      <form action="/my-handling-form-page" method="post">
+          <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">Email:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+              <button type="submit">Send your message</button>
+            </li>
+          </ul>
+      </form>    
+  </div>
+<footer>
+  <p>Fitnex &copy; 2023 - Bradley Graves</p>
+  <p><a href="site-plan.html">Site Plan</a></p>
+  <p><a href="contactus.html">Contact Us</a></p>
+  <div class="social">
+      <a href="https://facebook.com">
+          <img src="../images/facebook.png" alt="fb icon">
+      </a>
+      <a href="https://twitter.com">
+          <img src="../images/twitter.png" alt="twitter icon">
+      </a>
+      <a href="https://instagram.com">
+          <img src="../images/instagram.png" alt="instagram icon">
+      </a>
+  </div>
+</footer>
     <script>
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
